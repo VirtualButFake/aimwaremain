@@ -5,7 +5,7 @@ Version Checker
 
 Virtual#0021
 
-]] "Version 0.02"
+]] "Version 2"
 
 local currentLua = "Tester.lua"
  
