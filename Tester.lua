@@ -56,6 +56,7 @@ for i,v in pairs(ReadFile("virtsversions.txt")) do
 
 	local LuaInfo = v:split(";");
     local LuaName,LuaVersion = LuaInfo[1], LuaInfo[2]
+	print(LuaVersion)
     if LuaName == currentLua then
 		
 		if luaVersion ~= version then
