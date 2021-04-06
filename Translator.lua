@@ -45,7 +45,7 @@ end
 --CheckUpdate:Write()
 
 -->> check versions
-local VirtMenu = gui.Tab(gui.Reference("Settings"), "Russian Translator","Russian Translator")
+local Reference = gui.Tab(gui.Reference("Settings"), "Russian Translator","Russian Translator")
 
 
 
@@ -80,6 +80,7 @@ for i,v in pairs(ReadFile("virtsversions.txt")) do
 end
 
 
+local VirtMenu = gui.Groupbox(Reference, "Russian Translator by Virtual", 16, 16, 608, 500)
 
 local lua_groupbox = gui.Groupbox(VirtMenu , "Translate Messages (tick true to translate)", 16, 200, 168, 100 );
 

@@ -50,7 +50,7 @@ end
 
 
 
-local VirtMenu = gui.Tab(gui.Reference("Settings"), "Clantag Changer", "Clantag Changer")
+local Reference = gui.Tab(gui.Reference("Settings"), "Clantag Changer", "Clantag Changer")
 
 
 
@@ -145,7 +145,7 @@ local function getOriginalName()
   -->> Gui funny stuff
 
 
-
+local VirtMenu = gui.Groupbox(Reference, "Virtual's Animated Clantag", 16, 16, 608, 500)
 
 local c =  gui.Editbox(VirtMenu, "Clantag","")
 local lua_slider = gui.Slider(VirtMenu,"lua_slider","Animation Speed",50,0,100)
