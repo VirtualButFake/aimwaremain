@@ -1,10 +1,8 @@
+  
 local version =
 --[[
-
 Version Checker
-
 Virtual#0021
-
 ]] "Version 2"
 
 local currentLua = "Translator.lua"
@@ -47,8 +45,9 @@ end
 --CheckUpdate:Write()
 
 -->> check versions
+local VirtMenu = gui.Tab(gui.Reference("Settings"), "Russian Translator","Russian Translator")
 
-VirtMenu = gui.Reference( "MISC", "Part 1" );
+
 
 
 
@@ -145,4 +144,3 @@ callbacks.Register("DispatchUserMessage", "Main",function(msg)
 
 
 end)
-
