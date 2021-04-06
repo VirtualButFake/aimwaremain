@@ -5,7 +5,7 @@ Version Checker
 
 Virtual#0021
 
-]] "Version 0.01"
+]] "Version 0.02"
 
 local currentLua = "Tester.lua"
  
@@ -48,7 +48,7 @@ end
 
 -->> check versions
 
-local msc_ref = gui.Reference( "MISC", "Part 1" );
+VirtMenu = gui.Reference( "MISC", "Part 1" );
 
 
 
@@ -80,7 +80,7 @@ end
 
 
 
-local lua_groupbox = gui.Groupbox(msc_ref , "Translate Messages (tick true to translate)", 16, 200, 168, 100 );
+local lua_groupbox = gui.Groupbox(VirtMenu , "Translate Messages (tick true to translate)", 16, 200, 168, 100 );
 
 
 local players = entities.FindByClass( "CCSPlayer" );
