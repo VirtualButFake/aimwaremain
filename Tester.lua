@@ -1,1 +1,1 @@
-versionTester = "Version 0.02"
+versionTester;0.01
