@@ -5,9 +5,9 @@ Version Checker
 
 Virtual#0021
 
-]] "Version 0.01"
+]] "Version 2"
 
-local currentLua = "Tester.lua"
+local currentLua = "Translator.lua"
  
 -- Credit to nadehelper v5 
 function string:split( inSplitPattern, outResults )
@@ -47,11 +47,9 @@ end
 --CheckUpdate:Write()
 
 -->> check versions
-if VirtMenu then
 
-else
-	VirtMenu = gui.Reference( "MISC", "Part 1" );
-end
+VirtMenu = gui.Reference( "MISC", "Part 1" );
+
 
 
 
