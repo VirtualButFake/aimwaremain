@@ -5,7 +5,7 @@ Version Checker
 
 Virtual#0021
 
-]] "Version 2"
+]] "Version 0.01"
 
 local currentLua = "Tester.lua"
  
@@ -47,8 +47,12 @@ end
 --CheckUpdate:Write()
 
 -->> check versions
+if VirtMenu then
 
-VirtMenu = gui.Reference( "MISC", "Part 1" );
+else
+	VirtMenu = gui.Reference( "MISC", "Part 1" );
+end
+
 
 
 
